@@ -5,7 +5,7 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 
 
@@ -30,6 +30,23 @@ body {
 .introduction p {
     font-size: 70px;
     font-weight: bold;
+
+}
+
+.cat-pic {
+    object-fit: cover;
+
+    width: 300px;
+    height: 300px;
+
+    margin-top: 10%;
+
+    transform: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.cat-pic:hover {
+    transform: scale(1.1);
 }
 
 
