@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    min-height: 100vh;
+    min-width: 100%;
+
+    background-image: url(new-cats.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introduction {
+    text-align: center;
+
+    font-size: 60px;
+    color: rgb(238, 119, 177);
+    -webkit-text-stroke: 2px white;
+    
+}
+
+.introduction p {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
